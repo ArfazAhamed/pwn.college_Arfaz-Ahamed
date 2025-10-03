@@ -1,0 +1,114 @@
+# Intro To Question
+Challenge 6
+Sorting data
+We'll learn to use the sort command in this challenge usually it will be alphabatically sorted 
+## My solve
+**Flag:** "pwn.college{sg275a-fJU5W7MG58RojAiG4_Ot.0FM0MDOxwCMwQzNzEzW}"
+'''
+hacker@data~sorting-data:~$ sort -r  /challenge/flags.txt
+pwn.college{sg275a-fJU5W7MG58RojAiG4_Ot.0FM0MDOxwCMwQzNzEzW}
+pwn.college{sg275a-fJU5W7MG58RojAiG4_Ot.0FM0MDOxwCMwQzNzEzW}
+pwn.college{sg275a-fJU5W7MG58RojAiG4_Ot.0FM0MDOxwCMwQzMzEzW}
+pwn.college{sg275a-fJU5W7MG58RojAiG4_Ot.0FM0MDOxwCMvQzNzEzW}
+pwn.college{sg275a-fJU5W7MG58RojAiG4_Ot.0EM0MCOxwCMwQzMzEzW}
+pwn.college{sg275a-fJU5W7MG58RojAiG4_Os.0FM0MDOxwCMwQzNzEzW}
+pwn.college{sg275a-fJU5W7MG58RoiAiG4_Ot.0FM0MDNxwBMwQzNzEzW}
+pwn.college{sg275a-fJU5W7LG58RojAiG4_Ot.0FM0MDOxwCMwQyNzEzW}
+pwn.college{sg275a-fJT5W7MG58RojAiF4_Ot.0FL0MDOxwCMwQzNzEzW}
+pwn.college{sg274a-fJU5W6MG58RojAiG4_Nt.0FM0MDOwwCMwQzNzEzW}
+pwn.college{sg274a-fJT4W6MG58RniAhF4_Ot.0EM0LCOwwCMwQyNzEyW}
+pwn.college{sg265a-eJU5W7MG58RnjAiF4_Ot.0FM0MDOxwCMwQzNzEzW}
+pwn.college{sf275a-fJU5W7MG58RojAiG4_Ot.0FM0MDOxwCMwQzNzEzW}
+pwn.college{sf275a-fJU5W7MG48RoiAiG4_Os.0FM0MCNxwCMvQzNzEzW}
+pwn.college{sf275a-fIU5W7MG58RojAiG3_Ot.0FM0MDOxwCMwPzNzEyW}
+pwn.college{rg275a-fJT5V6MG58RoiAiG4_Ot.0FM0LDNwwCMwQzNyDzV}
+pwn.college{rg175a-fJU4V7MG48QojAiG4_Ot.0FM0MDNxwCMvQyNzDzW}
+pwn.college{rf275a-eIU5W7MF58RojAiG4_Ot.0FM0MCOxwCLwQzNzEyW}
+pwn.collegd{sg275a-fJU5W7MG58RojAiG4_Ot.0FM0MDOxwCMwQzNzEzW}
+pwn.collegd{sg275a-eJU5W7MG58RoiAhG4_Ot.0FM0MDOxwCMwQyMzEzW}
+pwn.collefe{sg265a-fJU5W6MG58RojAiG4_Ot.0FM0MDOxwBMwQzMzEzW}
+pwn.colldge{sg174a-fIU5V6LG58RniAiG4_Nt.0EM0MDNxwCMwPzNzEyW}
+pwn.colldge{sf275a-fJU5W7MG58RojAiG4_Ot.0EM0MDOxwCMvQzNzEyW}
+pwn.colkegd{sf165a-fIU5V7LF58RojAiG4_Ot.0FL0LCOwvCLwQzNyDzW}
+pwn.colkdge{sg275a-fJU5W7MG58RojAiG4_Ot.0FL0MDOxwCMwQzNzDzW}
+pwn.colkdge{sg275a-fJU5W7MG58RojAiG4_Os.0FM0MDOxwBMwQyMzEzW}
+pwn.colkdge{sf265a-eJU5W7LF48RojAiG4_Ot.0FL0MDOxvCLwPyNzDyW}
+pwn.colkdfe{rg274a-fJU5V6LF58RoiAiG3_Os.0FM0LCOxwCMvQzMzDzW}
+pwn.coklege{sg275a-fJU5V7MF58RoiAiG4_Ot.0FL0MCOxwCMwQzNzEzW}
+pwn.coklege{sf165a-fJU4V7LF57QojAiG4_Os.0FM0MDOxwCMwQzNzDzW}
+pwn.coklege{rg275a-fJU5W7MG58RojAiG4_Ot.0FM0MDOxwCLwQzNzEzW}
+pwn.coklegd{sg175a-fJU5W7MG58QojAhG3_Nt.0EM0MDOxwBMwQzMzEzV}
+pwn.cokldgd{sf265a-fJT5W7MF58RniAiG4_Nt.0FL0MDOxwCLwPzMzEzW}
+pwn.cokldfe{rf175a-fJU5V7MG58RojAiF4_Ot.0FM0MDOxwCMwQzNzEzW}
+pwn.cnllege{sg275a-fJU5W7MG58RojAiG4_Ot.0FM0MDOxwCMwPzNzEzW}
+pwn.cnllege{sg275a-fIU5W7LG58QojAiG4_Ot.0FM0MDOwwCMwQzNzEzW}
+pwn.cnllefe{sg165a-eJT5W7MG48QnjAiF3_Ns.0FL0MDOxvCLwQzMzEzW}
+pwn.cnllefd{rf275a-eJU5W7LF58RnjAiG3_Ot.0FL0MDOwwCLwQzNyEzW}
+pwn.cnkkdge{sg275a-eJU5W7MF48RnjAiG4_Nt.0FM0LDOxwBLvPyNzEyW}
+pwn.bollege{sg274a-fJU5V6LF57RnjAhG4_Ot.0EM0LDNxvCMwPyNzDzV}
+pwn.bollege{sg174a-fIU5V6LG58QniAiG3_Ot.0FM0MCOwvCLwQzNzDzV}
+pwn.bolldfd{sg275a-fIU5W7LG58RojAiF4_Ot.0FL0MDOxwCLwQyMyDzW}
+pwn.bolkdge{sg164a-fIU5W7MG48RoiAhF3_Ot.0FM0MDOxvCMvPzNzDzW}
+pwn.bnllegd{rg265a-fJT4W7MG58RojAhG4_Ot.0EL0MDOwwCLwQyMzEzW}
+pwn.bnllefd{rf275a-fJU5W7MG47RoiAiG4_Nt.0FL0MDNxwCMwQzNyDzW}
+pwn.bnlldge{rg174a-fIU5W6MG57QnjAhG4_Os.0FL0LCNxwCMvPzNyEyW}
+pwn.bnlldfe{sg274a-fJU5W7MG58RojAhG4_Ot.0EM0MDOxwCMwPzNzEzW}
+pwn.bnklefe{sg275a-fJU5W7LG58RojAiF4_Ns.0FM0MDOxwCMwQzMzEzW}
+pwn.bnkkege{sg175a-eIU5W7LG58RojAiG4_Ot.0FL0MCOwvCMwQzNyEzW}
+pwm.college{sg275a-fJU5W7MG48RojAiG4_Ot.0FM0MDOwwCMwQzNyEzW}
+pwm.college{rf164a-eJU5W7MF57RnjAiF4_Os.0FL0LDOxwBMvQyMzEzW}
+pwm.colkege{sg274a-fJU5W7MG58RojAiF4_Ot.0EM0MDOxwCMwQzNzEzW}
+pwm.cnllege{sg274a-fJU5W6LG58RojAiG3_Ot.0FM0MCOxwCMwQzMzEzW}
+pwm.cnklege{rg175a-fJU5W7MG58RoiAiG4_Ot.0FM0MDNwwCMvQzNzEzW}
+pwm.bollefe{sg264a-fJT5W7MF57QojAiF4_Nt.0EM0MDOwvCMwPzNyDzV}
+pwm.bolkegd{rg165a-fIU5V7MG57QnjAiF4_Os.0FM0LDNxwBMwQzNzDyW}
+pwm.bolkefd{rg275a-fJU4W7MG58RojAiF4_Ot.0EM0MDOxwCMwQzNzEzW}
+pwm.boklege{sg275a-fIU5W7MF58QnjAiG4_Ot.0FL0LDOxwCLwQzNyEzW}
+pwm.bokkege{sg165a-eIU4W6MF58RnjAhF4_Nt.0FL0MDNxvCMvPzNzDzW}
+pvn.college{rf265a-fJT4V7LF58QniAhG4_Os.0FM0MDNwwBMvPzNzDzW}
+pvn.colldgd{rg274a-fIU5W7MG58RoiAhG4_Ot.0EL0MDNxwCLwQzNzEzW}
+pvn.colkege{sg275a-fJU4W7MG58RniAhG3_Ot.0EM0MCOxwCMwQzNzEzW}
+pvn.cokkegd{sg274a-eJU5V6MG57QojAiF4_Os.0FM0MDNwwCLwQzNzEzW}
+pvn.cokkegd{sg264a-fJU4W7MF48RnjAiG3_Nt.0FL0MDNxwCMvQzMzEzW}
+pvn.bollege{rg275a-eJT5W7LG58QoiAiF4_Ot.0EM0MDOxwCLwQzMzEyV}
+pvn.bollegd{sf265a-fJT5V7MG58QojAhG4_Ot.0FM0MDOwwBMwQzNzEzW}
+pvn.bnlldfd{rf274a-fIU5V6MF57QnjAiG4_Ot.0FM0LDNxvBMwQyNzEzW}
+pvn.bnklefe{sg165a-fIU4W6MG58QniAiG4_Nt.0EM0MDOxvCLvQyNzEzW}
+pvm.college{sg275a-fJU5W6MG58RojAiG4_Os.0FL0MDNxwCLwQzNyEzW}
+pvm.college{sg175a-eJU5W7LF58QojAiG4_Os.0FM0MDOxvCLwQzMzDyW}
+pvm.college{sf274a-fJU5V7MG48RojAhG3_Ot.0EM0MDOxwCLvQyMzEyW}
+pvm.bollegd{sg165a-eJU5W7MF47RoiAhG3_Nt.0EL0MDNxwBMwQzMzDzW}
+pvm.bnkldge{sg275a-eIU5V6MG57QnjAiG3_Ot.0FL0LCNwwCMwQyNzDzV}
+own.college{sg275a-fJT5W7MG58RojAiG3_Ot.0FM0LDOxwCMwQzNzEzW}
+own.college{sg165a-fJU5W7MG58RojAiG4_Ot.0FM0MDOwwCMwPzNzEzW}
+own.college{sf174a-fIT4W7MG58RoiAiF4_Ot.0FL0LDNwvCLwPzMyEyW}
+own.collegd{sg275a-eJU4W6MG58RojAiG4_Os.0EL0LDOxwCMwQzMzEzW}
+own.colkegd{sf265a-fIU5V7MG58RniAhG4_Ot.0FM0MDOwwBMvQzMzEzV}
+own.coklege{rg175a-fJT5V6LG58RnjAiF3_Nt.0EM0MDNxwCLvQzNzEzW}
+own.coklegd{sg175a-fJU5V7LG58RnjAhF3_Nt.0EM0MCNxwCMwPzMyDzW}
+own.cokkdfd{sg174a-eJU5V7MF58RojAiF4_Nt.0FL0MDOxvCLwPzMzEzV}
+own.cnlkegd{rg175a-eJU5V6MF48RoiAhF4_Nt.0FL0LDNxwCMvQzNzDyW}
+own.bollefe{sf275a-fJT5W6MF58RojAiF4_Nt.0EM0MDOwwCLwPzNyEzW}
+own.bollefe{sf175a-eIU5V7MG58RojAiG4_Ot.0FM0LDOxwCMwQzNzEzW}
+own.bolkege{sf275a-fJT5W7MG58QojAhG4_Nt.0FM0MDOxwCLwPzNzEzW}
+own.boklege{sg275a-fIU5W7MF58RnjAiG3_Ot.0FM0MDNxvBLvQzMzEzV}
+owm.college{sg174a-eJT5V6LG58QniAiF4_Ot.0FL0LCNxwCMvQzMzEzV}
+owm.college{sf275a-eJU4V7LG58RojAhG4_Os.0EM0MCOxwCMwQzNzDzW}
+owm.college{rg275a-fJT5W7MG58RnjAhG4_Ot.0EL0MDOxwBMwQyNzEzW}
+owm.colkege{sg274a-fJU5V7MG57RojAhG4_Ot.0FM0MDNxvCMwQzNyEzW}
+owm.colkege{sg274a-eJU5W7MG58RojAiG4_Nt.0FM0MDNxvBMwQzNyEzW}
+owm.coklege{sg275a-fJU5W7MF58RojAiF4_Ot.0EM0MDOxwCMwQzMzEzV}
+owm.cokldge{sg274a-eJU5W6MG57QoiAhG4_Ot.0EL0MDOxwCMwPzNzEzW}
+owm.cnllege{sg275a-eJU5W7MG57RojAhG4_Ns.0EM0LDOxwBMvQzMyEzW}
+owm.bokkege{rg275a-fJU4W6MF58RojAhG4_Ns.0FM0LDOwwBMvQzMzDzV}
+ovn.cnllege{sg275a-fIU5W7MG58RniAiG4_Ns.0FM0MDOxwBMwQzNyEzW}
+ovn.cnllegd{sg265a-fIT5W7MF57RojAiG3_Os.0FM0MDOwwBLvPzNzDzW}
+ovn.cnlldgd{sg265a-fJT4W7MG47RojAhG4_Os.0FM0MCOxwCMwQzNzEyW}
+ovn.bollege{sf175a-fJU5W7MG58RojAiF3_Ns.0FM0LDOxvCMvQzNyEzW}
+ovn.bolkegd{sf275a-fIU5W7LG58RniAiG4_Ot.0FL0MCNxwCLwQzNzEzW}
+ovm.cnklege{sf275a-fIU5V7MF48RojAiG3_Os.0FM0MCOxwCMvQzMyEzV}
+'''
+## What I Learned
+To use sort command in the terminal 
+## References
+None.
