@@ -11,7 +11,7 @@ You got it! Here is your flag!
 pwn.college{0eidbyn8PuT0kIrYhXVIKp9a8SJ.QXzIDO0wCMwQzNzEzW}
 '''
 ## What I Learned
-To use []
+To use [] in the terminal 
 ## References
 None.
 
